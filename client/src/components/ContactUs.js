@@ -5,7 +5,7 @@ const ContactUs = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm();
 
   const onSubmit = (data) => {
-    console.log(data);
+   
     alert('Message sent successfully!');
     reset();
   };

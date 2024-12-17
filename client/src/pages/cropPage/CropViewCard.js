@@ -30,7 +30,7 @@ if(!token){
     })
       
     if(response){
-      console.log(response.data);
+      
       toast.success(response.data.message);
       navigate("/Allcrops");
     }

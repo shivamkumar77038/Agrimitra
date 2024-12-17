@@ -55,7 +55,7 @@ const allListedCrops = async (req,res)=>{
  
     try{
     const loginuser = req.user.id;   
-    console.log(loginuser);
+    
    const user =  await Farmer.findById(loginuser);
    
     if(!user){

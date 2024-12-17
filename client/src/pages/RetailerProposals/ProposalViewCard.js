@@ -30,7 +30,7 @@ export default function ProposalViewCard() {
         })
           
         if(response){
-          console.log(response.data);
+         
           toast.success(response.data.message);
           navigate("/AllavailableProposal");
         }

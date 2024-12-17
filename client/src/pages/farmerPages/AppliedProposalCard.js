@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function AppliedProposalCard({ requests }) {
   
-  console.log(requests);
+  
   const { cropName, quantity,retailerName,deliverydate,farmingMethod,desiredPrice,deliverylocation,_id } = requests;
   
 

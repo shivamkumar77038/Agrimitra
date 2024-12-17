@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function AppliedCropCard({ requests }) {
   
-  console.log(requests);
+  
   const { cropName, quantity,farmerName,harvestedDate,farmingMethod,pricePerunit,farmLocation,_id } = requests;
   
 
