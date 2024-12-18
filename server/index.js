@@ -25,6 +25,10 @@ const port = process.env.PORT || 5000;
 // database connection 
 dbconnect();
 
+app.get("/",(req,res)=>{
+    res.send("hello world");
+})
+
 // retailer routes
 app.use("/retail",retailRoutes);
 
