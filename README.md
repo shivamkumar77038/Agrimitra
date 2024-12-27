@@ -16,11 +16,14 @@ acces all crops and all retailer proposals
 
 /////////////////   tech         ///////////////////////////////////////////////////////////
 Technologies Used
-Frontend: React.js
-Backend: Node.js, Express.js
+Frontend: React.js,reach-hook-from, toastify, tailwind ,axios
+Backend: Node.js, Express.js 
 Database: MongoDB
 Authentication: JWT (JSON Web Tokens)
 Styling: CSS, Tailwind CSS (optional)
+
+//frontend enviroment
+  REACT_APP_BACKEND_URL = "your bacnked hosted url"
 
 // backend enviroment ////////////////////
  PORT = 7000
