@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logodiv {
+    background-image: url(../public/images/logoimg.png);
+    background-size: cover;
+    background-position:center;
+    
+}
+
+.navactive{
+    border-bottom: 2px solid lime;
+   font-style: italic;
+  
+  
+}
+
+
+
+
